@@ -1,0 +1,47 @@
+{
+  "name": "post-composer",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-react": ">= 7.14.5",
+    "@babel/preset-typescript": ">= 7.14.5",
+    "@material-ui/core": ">= 4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": ">= 4.11.4",
+    "@rails/actioncable": "^6.1.4",
+    "@rails/webpacker": "6.0.0-beta.7",
+    "@rjsf/core": ">= 3.0.0",
+    "@rjsf/material-ui": ">= 3.0.0",
+    "@types/rails__actioncable": "^6.1.5",
+    "@types/react-dom": ">= 17.0.9",
+    "@types/react-router-dom": ">= 5.1.8",
+    "babel-plugin-transform-react-remove-prop-types": ">= 0.4.24",
+    "css-loader": ">= 6.2.0",
+    "fork-ts-checker-webpack-plugin": ">= 6.3.1",
+    "html-webpack-harddisk-plugin": ">= 2.0.0",
+    "html-webpack-plugin": ">= 5.3.2",
+    "mini-css-extract-plugin": ">= 2.1.0",
+    "monaco-editor-webpack-plugin": ">= 4.1.1",
+    "react": ">= 17.0.2",
+    "react-dom": ">= 17.0.2",
+    "react-monaco-editor": ">= 0.44.0",
+    "react-router-dom": ">= 5.2.0",
+    "style-loader": "^3.2.1",
+    "typescript": ">= 4.3.5",
+    "webpack": ">= 5.11.0",
+    "webpack-cli": ">= 4.2.0"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "@webpack-cli/serve": ">= 1.5.1",
+    "webpack-dev-server": ">= 3.11.2"
+  },
+  "babel": {
+    "presets": [
+      "./node_modules/@rails/webpacker/package/babel/preset.js",
+      "@babel/preset-typescript"
+    ]
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
